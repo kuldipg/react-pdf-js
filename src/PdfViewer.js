@@ -1,5 +1,5 @@
 import React, { useEffect, useState, useRef, useCallback } from 'react';
-import pdfjsLib from 'pdfjs-dist/build/pdf';
+import * as pdfjsLib from 'pdfjs-dist/webpack';
 import pdfjsWorker from 'pdfjs-dist/build/pdf.worker.entry';
 
 export default function PdfViewer({ url }) {
